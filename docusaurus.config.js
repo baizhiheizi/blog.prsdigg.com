@@ -7,7 +7,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'baizhiheizi', // Usually your GitHub org/user name.
-  projectName: 'PRSDigg', // Usually your repo name.
+  projectName: 'blog.prsdigg.com', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'PRSDigg Blog',
