@@ -1,30 +1,30 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'PRSDigg Blog',
+  tagline: 'PRSDigg 官方博客站',
+  url: 'https://blog.prsdigg.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'baizhiheizi', // Usually your GitHub org/user name.
+  projectName: 'PRSDigg', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'PRSDigg Blog',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'PRSDigg Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: '文档',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: '公告', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/baizhiheizi/blog.prsdigg.com',
           label: 'GitHub',
           position: 'right',
         },
@@ -34,50 +34,46 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '文档',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: '规则',
+              to: 'docs/rules/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'FAQ',
+              to: 'docs/faq/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '社区',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Mixin Group',
+              href: 'https://mixin-www.zeromesh.net/codes/d9c39065-5021-454b-b2f5-bd95116e906d',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/prsdigg',
             },
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'Blog',
+              label: '公告',
               to: 'blog',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/baizhiheizi/prsdigg',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} PRSDigg Blog, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -86,15 +82,14 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/baizhiheizi/blog.prsdigg.com/edit/master/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/baizhiheizi/blog.prsdigg.com/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
