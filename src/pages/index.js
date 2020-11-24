@@ -71,7 +71,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('blog/')}>
-              Get Started
+              开始
             </Link>
           </div>
         </div>

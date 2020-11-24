@@ -14,6 +14,7 @@ module.exports = {
       logo: {
         alt: 'PRSDigg Logo',
         src: 'img/logo.svg',
+        srcDark: 'img/logo.svg',
       },
       items: [
         {
