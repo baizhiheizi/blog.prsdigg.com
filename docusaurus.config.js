@@ -1,7 +1,7 @@
 module.exports = {
   title: 'PRSDigg Blog',
   tagline: 'PRSDigg 官方博客站',
-  url: 'https://blog.prsdigg.com',
+  url: 'https://baizhiheizi.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
