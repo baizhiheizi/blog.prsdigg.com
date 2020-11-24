@@ -1,5 +1,5 @@
 ---
-slug: 双周刊
+slug: Newsletter-Vol-1
 title: 顶瓜瓜的双周刊 Vol.1
 author: 夜夜
 author_title: 夜夜
