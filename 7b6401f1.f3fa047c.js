@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{78:function(g){g.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"prs-digg","name":"prsdigg","count":4,"permalink":"/blog/tags/prs-digg"}')}}]);
